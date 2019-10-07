@@ -1,0 +1,8 @@
+Requirements:
+
+
+Python version : 3.7.4
+
+Django Version : 2.2
+
+IDE    : PyCharm

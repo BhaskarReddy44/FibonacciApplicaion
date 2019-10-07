@@ -1,0 +1,24 @@
+{% load staticfiles %}
+ <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}" />
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fibonacci Test</title>
+
+</head>
+<body>
+    <section class="fibonacci-ui">
+        <div class="container">
+            <form method="GET">
+                <input type="search" placeholder="Enter Number For Fibonacci" name="value">
+                <button>Enter</button>
+            </form>
+            <div>
+                <h3>Last Element in Fibonacci sequence :   {{output}}</h3>
+                <br/>
+                <h4> Time: {{latency}} ms</h4>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
